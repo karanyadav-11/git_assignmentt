@@ -1,0 +1,14 @@
+let str="naman";  
+let bag="";
+    let bag1="";
+    for(let x=str.length-1;x>=0;x--){
+        bag=bag+str[x];
+    }
+    for( let x=0;x<=str.length-1;x++){
+        bag1=bag1+str[x];
+    }
+    if(bag=bag){
+        console.log("Yes");
+    }else{
+        console.log("No");
+    }
